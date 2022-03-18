@@ -1,12 +1,14 @@
 import './App.css'
+import Calculator from './components/Calculator'
+import React from 'react'
 
 const App = () => {
   
   return (
     <div className="App">
-      <h1>React Calculator</h1>
+      <h1>The Calculator</h1>
 
-      {/* Your <Calculator /> component here */}
+      {<Calculator/>}
     </div>
   )
 }
